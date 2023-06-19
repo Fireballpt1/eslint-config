@@ -4,6 +4,9 @@
   "private": false,
   "description": "ESLint configuration used by Madeira Vip Travel.",
   "main": "index.ts",
+  "publishConfig": {
+    "@Fireballpt1:registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
