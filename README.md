@@ -12,14 +12,14 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint @jls/eslint-config
+npm i -D eslint eslint-config-jls
 ```
 
 2. Create/Open `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@jls/eslint-config/react"
-  // "extends": "@jls/eslint-config/node"
+  "extends": "eslint-config-jls/react"
+  // "extends": "eslint-config-jls/node"
 }
 ```
 
