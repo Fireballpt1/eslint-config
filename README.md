@@ -1,4 +1,4 @@
-# ESLint config
+# Madeira Vip Travel ESLint config
 
 ## Whats included?
 
@@ -12,14 +12,14 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint eslint-config
+npm i -D eslint @jls/eslint-config
 ```
 
 2. Create/Open `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "eslint-config/react"
-  // "extends": "eslint-config/node"
+  "extends": "@jls/eslint-config/react"
+  // "extends": "@jls/eslint-config/node"
 }
 ```
 
