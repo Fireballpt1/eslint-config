@@ -1,8 +1,13 @@
 {
   "name": "@mvt/eslint-config",
   "version": "1.0.0",
+  "private": false,
   "description": "ESLint configuration used by MVT.",
   "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "Fireballpt1/eslint-config-mvt"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
@@ -26,20 +31,5 @@
     "typescript": {
       "optional": true
     }
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fireballpt1/eslint-config-mvtravel.git"
-  },
-  "keywords": [],
-  "author": "Leonardo Santos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Fireballpt1/eslint-config-mvtravel/issues"
-  },
-  "homepage": "https://github.com/Fireballpt1/eslint-config-mvtravel#readme"
+  }
 }
